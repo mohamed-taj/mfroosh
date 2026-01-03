@@ -1,0 +1,58 @@
+export const products = [
+  {
+    key: "Peanuts",
+    image: "/peanuts.jpg",
+    images: ["/8.jpg", "/peanuts.jpg", "/88.jpg",],
+    description: "products.Peanuts.description",
+    uses: "products.Peanuts.uses",
+  },
+  {
+    key: "Sesame",
+    image: "/sesame.jpg",
+    images: ["sesame.jpg", "/2.jpg", "/22.jpg"],
+    description: "products.Sesame.description",
+    uses: "products.Sesame.uses",
+  },
+  {
+    key: "Arabic Gum",
+    image: "/5.jpg",
+    images: ["/products/arabic-gum/1.jpg", "/5.jpg", "/55.jpg"],
+    description: "products.Arabic Gum.description",
+    uses: "products.Arabic Gum.uses",
+  },
+  {
+    key: "Hibiscus",
+    image: "/hib.jpg",
+    images: ["/hib.jpg", "/6.jpg", "/66.jpg"],
+    description: "products.Hibiscus.description",
+    uses: "products.Hibiscus.uses",
+  },
+  {
+    key: "Adasya",
+    image: "/beans.jpg",
+    images: ["/beans.jpg", "/7.jpg", "/77.jpg"],
+    description: "products.Adasya.description",
+    uses: "products.Adasya.uses",
+  },
+  {
+    key: "Watermelon Seeds",
+    image: "/seeds.jpg",
+    images: ["/seeds.jpg", "/3.jpg", "/33.jpg"],
+    description: "products.Watermelon Seeds.description",
+    uses: "products.Watermelon Seeds.uses",
+  },
+  {
+    key: "Peanut Cake",
+    image: "/cake.jpg",
+    images: ["/cake.jpg", "/11.jpg", "/111.jpg"],
+    description: "products.Peanut Cake.description",
+    uses: "products.Peanut Cake.uses",
+  },
+  {
+    key: "Frankincense",
+    image: "/44.jpg",
+    images: ["/44.jpg", "/4.jpg", "/frank.jpg"],
+    description: "products.Frankincense.description",
+    uses: "products.Frankincense.uses",
+  },
+];

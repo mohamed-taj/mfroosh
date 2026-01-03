@@ -1,0 +1,195 @@
+{
+  "brand": "MFROOSH",
+  "brandSubtitle": "Multi-Services",
+  "nav": {
+    "services": "Services",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "cta": {
+    "getStarted": "Get Started",
+    "inquire": "Inquire"
+  },
+  "hero": {
+    "kicker": "Premium Agricultural Commodities",
+    "title": "Global Supply & Export Solutions",
+    "lead": "MFROOSH is a leading and reliable company specializing in the supply and export of high-quality agricultural commodities. The company connects farmers and producers with local, regional, and international markets through professional and efficient supply chain solutions.has extensive experience in agricultural supply chain management and is committed to applying the highest standards of quality and food safety at every stage  from crop selection to sorting, packaging, and final delivery in line with client requirements.",
+    "learnMore": "Learn More"
+  },
+  "trust": {
+    "global": "Global",
+    "markets": "Markets",
+    "percent": "100%",
+    "quality": "Quality",
+    "trusted": "Trusted",
+    "partner": "Partner"
+  },
+  "features": {
+    "kicker": "Core Values",
+    "heading": "Our Core Values:",
+    "items": {
+      "quality": {
+        "title": "Quality",
+        "desc": "Highest standards of food safety and quality control at every stage—from selection to final delivery."
+      },
+      "integrity": {
+        "title": "Integrity",
+        "desc": "Transparent operations and ethical business practices in all transactions."
+      },
+      "commitment": {
+        "title": "Commitment",
+        "desc": "Dedicated to sustainability and operational excellence in every transaction."
+      },
+      "partnership": {
+        "title": "Partnership",
+        "desc": "Building trusted relationships with farmers, suppliers, and buyers."
+      },
+      "continuousDevelopment": {
+        "title": "Continuous Development",
+        "desc": "Ongoing investment in people, processes, and technology to improve service quality."
+      }
+    }
+  },
+  "about": {
+    "heading": "Leading Agricultural Supplier",
+    "visionTitle": "Our Vision:",
+    "visionText": "To become a regional leader in agricultural commodity supply and export, and a trusted partner for farmers and buyers worldwide.",
+    "missionTitle": "Our Mission:",
+    "missionText": "To provide premium agricultural products that meet diverse market needs, while maintaining transparency, sustainability, and operational excellence.",
+    "points": {
+      "service1": {
+        "title": "Supply and export of agricultural commodities",
+        "desc": ""
+      },
+      "service2": {
+        "title": "Sorting, packaging, and labeling according to market standards",
+        "desc": ""
+      },
+      "service3": {
+        "title": "Integrated logistics solutions",
+        "desc": ""
+      },
+      "service4": {
+        "title": "Serving local and international markets",
+        "desc": ""
+      }
+    },
+    "kicker": "About MFROOSH",
+    "servicesTitle": "Our Services"
+  },
+  "products": {
+    "title": "Our Products",
+    "heading": "Premium Agricultural Commodities",
+    "description": "Sourced from the finest farms and suppliers, delivered fresh to markets worldwide",
+    "Peanuts": {
+      "name": "Peanuts",
+      "description": "premium-quality peanuts with high oil content, widely used in the food industry",
+      "uses": "Ideal for snacking, baking, and producing peanut butter."
+    },
+    "Sesame": {
+      "name": "Sesame",
+      "description": "High-quality sesame seeds with high oil content and excellent purity, suitable for food industries and export markets.",
+      "uses": "Used in baking, as a topping for salads, and for producing sesame oil."
+    },
+    "Arabic Gum": {
+      "name": "Arabic Gum(Hashab -talha)",
+      "description": "Pure natural gum arabic used in food, pharmaceutical, and cosmetic industries.",
+
+
+      "uses": "Used in food as a stabilizer, in pharmaceuticals, and in lithography."
+    },
+    "Hibiscus": {
+      "name": "Hibiscus",
+      "description": "Dried hibiscus flowers, offering a unique tangy flavor and vibrant color.",
+      "uses": "Perfect for making teas, beverages, and as a natural food coloring."
+    },
+    "Adasya": {
+      "name": "Adasya",
+      "description": "Carefully selected lentils, suitable for food production and consumer markets.",
+      "uses": "Commonly used in soups, stews, and various traditional dishes."
+    },
+    "Watermelon Seeds": {
+      "name": "Watermelon Seeds",
+      "description": "High-quality watermelon seeds suitable for snacks and various food applications.",
+      "uses": "Can be roasted for a healthy snack or pressed for oil."
+    },
+    "Peanut Cake": {
+      "name": "Peanut Cake",
+      "description": "Protein-rich peanut cake widely used as high-value animal feed",
+      "uses": "Primarily used as a high-protein supplement for livestock."
+    },
+    "Frankincense": {
+      "name": "Frankincense",
+      "description": "Natural frankincense gum used in incense, traditional remedies, and various industries.",
+      "uses": "Burned for its aromatic properties, used in traditional medicine, and in perfumery."
+    }
+    ,
+    "usesLabel": "Uses"
+  },
+  "enquiry": {
+    "title": "Get in Touch",
+    "lead": "Have questions about our products? Fill out the form below and we'll get back to you shortly.",
+    "successTitle": "Thank you!",
+    "successMessage": "Your enquiry has been sent successfully. We'll contact you soon.",
+    "errorTitle": "Error",
+    "errorDefault": "Failed to send enquiry. Please try again.",
+    "labels": {
+      "name": "Full Name *",
+      "email": "Email Address *",
+      "phone": "Phone Number *",
+      "company": "Company Name",
+      "product": "Product of Interest *",
+      "message": "Message *"
+    },
+    "placeholders": {
+      "name": "Your name",
+      "email": "your@email.com",
+      "phone": "+1 234 567 8900",
+      "company": "Your company",
+      "selectProduct": "Select a product",
+      "message": "Tell us more about your enquiry..."
+    },
+    "submit": {
+      "sending": "Sending...",
+      "send": "Send Enquiry"
+    },
+    "requiredNote": "* Required fields. We respect your privacy and will never share your information."
+  },
+  "footer": {
+    "description": "MFROOSH is a leading and reliable company specializing in the supply and export of high-quality agricultural commodities.",
+    "productsHeading": "Products",
+    "companyHeading": "Company",
+    "contactHeading": "Contact",
+    "company": {
+      "about": "About Us",
+      "products": "Our Products",
+      "contact": "Contact"
+    },
+    "offices": {
+      "uae": {
+        "title": "UAE Office",
+        "location": "Dubai, United Arab Emirates"
+      },
+      "sudan": {
+        "title": "Sudan Office",
+        "location": "Port Sudan, Sudan"
+      }
+    },
+    "copyright": "© {{year}} MFROOSH. All rights reserved."
+  },
+  "notFound": {
+    "title": "404",
+    "message": "Oops! Page not found",
+    "home": "Return to Home"
+  },
+  "lang": {
+    "en": "English",
+    "ar": "العربية"
+  },
+  "carousel": {
+    "scrollLeft": "Scroll left",
+    "scrollRight": "Scroll right"
+  },
+  "companyProfile": "MFROOSH is a leading and reliable company specializing in the supply and export of high-quality agricultural commodities. The company connects farmers and producers with local, regional, and international markets through professional and efficient supply chain solutions.",
+  "logoAlt": "MFROOSH Logo"
+}  
