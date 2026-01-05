@@ -94,9 +94,11 @@ export const handleEnquiry: RequestHandler = async (req, res) => {
     // Prefer Resend when configured (modern, reliable)
     if (process.env.RESEND_API_KEY) {
       try {
+        console.log("Attempting to send email via Resend...");
         const { Resend } = await import("resend");
         const resend = new Resend(process.env.RESEND_API_KEY);
-        await resend.emails.send({
+        
+        const emailResult = await resend.emails.send({
           from: process.env.COMPANY_EMAIL || "noreply@mfrooshtrade.com",
           to: process.env.COMPANY_EMAIL || "info@mfrooshtrade.com",
           subject: `New Enquiry from ${name} - ${product}`,
@@ -111,6 +113,8 @@ export const handleEnquiry: RequestHandler = async (req, res) => {
             <p>${message.replace(/\n/g, "<br>")}</p>
           `,
         });
+        
+        console.log("Resend email result:", emailResult);
       } catch (resendError) {
         console.error("Resend email error:", resendError);
       }
