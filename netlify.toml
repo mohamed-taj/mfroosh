@@ -5,7 +5,8 @@
 
 
 [functions]
-  external_node_modules = ["express"]
+  # Bundle dependencies (including express) into the function so the runtime finds them
+  # Removing `express` from `external_node_modules` ensures esbuild will include it
   node_bundler = "esbuild"
   
 [[redirects]]
