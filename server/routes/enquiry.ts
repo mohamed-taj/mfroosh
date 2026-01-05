@@ -49,11 +49,22 @@ export const handleEnquiry: RequestHandler = async (req, res) => {
   try {
     const { name, email, phone, company, product, message }: EnquiryData = req.body;
 
+    console.log("Enquiry form data received:", { name, email, phone, company, product, message });
+
     // Validate required fields
     if (!name || !email || !phone || !product || !message) {
+      const missingFields = [];
+      if (!name) missingFields.push("name");
+      if (!email) missingFields.push("email");
+      if (!phone) missingFields.push("phone");
+      if (!product) missingFields.push("product");
+      if (!message) missingFields.push("message");
+      
+      console.error("Validation failed - missing fields:", missingFields);
+      
       const response: EnquiryResponse = {
         success: false,
-        message: "Missing required fields",
+        message: `Missing required fields: ${missingFields.join(", ")}`,
       };
       return res.status(400).json(response);
     }
