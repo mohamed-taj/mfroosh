@@ -20,6 +20,18 @@ export function createServer() {
   // Middleware
   app.use(cors());
   
+  // Fix for serverless-http: parse Buffer body before express.json()
+  app.use((req, res, next) => {
+    if (Buffer.isBuffer(req.body)) {
+      try {
+        req.body = JSON.parse(req.body.toString());
+      } catch (e) {
+        console.error("Failed to parse buffer body:", e);
+      }
+    }
+    next();
+  });
+  
   // Debug: log all incoming requests
   app.use((req, res, next) => {
     console.log("Incoming request:", {
