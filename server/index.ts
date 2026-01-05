@@ -19,6 +19,19 @@ export function createServer() {
 
   // Middleware
   app.use(cors());
+  
+  // Debug: log all incoming requests
+  app.use((req, res, next) => {
+    console.log("Incoming request:", {
+      method: req.method,
+      path: req.path,
+      contentType: req.get("content-type"),
+      body: req.body,
+      rawBody: req.rawBody,
+    });
+    next();
+  });
+  
   app.use(express.json());
   app.use(express.urlencoded({ extended: true }));
 
